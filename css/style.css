@@ -22,6 +22,11 @@ h2{
     color: white;
 }
 
+.grigio_blu{
+    background-color: #3a546d;
+    color: white;
+}
+
 /*HEADER*/
 /*NAV*/
 nav{
@@ -71,23 +76,66 @@ nav li a {
 }
 
 .about_text_left{
-    text-align: left;
-    padding: 0 2% 0 30%;
+    text-align: center;
+    width: 80%;
+    margin: auto;
 }
 
 .about_text_right{
-    text-align: left;
-    padding: 0 30% 0 2%;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding: 2% 0;
 }
 
-@media all and ( min-width : 992 px ){
+@media all and ( min-width : 768 px ) {
 
-}
-
-@media all and ( min-width : 992 px ){
+    .about_text_left{
+        text-align: left;
+        width: 80%;
+        margin: auto;
+    }
     
+    .about_text_right{
+        text-align: left;
+        width: 80%;
+        margin: auto;
+        padding: 2% 0;
+    }
 }
-
 /*FINE ABOUT*/
 
+/*CONTACT*/
+#contact{
+    text-align: center;
+}
+
+.border{
+    border-bottom: 1px solid #cecece;
+    text-align: left;
+    padding: 1% 0;
+    margin: 0 20%;
+}
+
+.border_message{
+    border-bottom: 1px solid #cecece;
+    text-align: left;
+    padding: 1% 0 180px 0;
+    margin: 0 20%;
+}
+/*FINE CONTACT*/
 /*FINE MAIN*/
+
+/*FOOTER*/
+footer{
+    text-align: center;
+}
+
+.padding_footer{
+    padding: 0 0 3% 0;
+}
+
+footer .copyright{
+    padding: 2% 0 3% 0;
+}
+/*FINE FOOTER*/
