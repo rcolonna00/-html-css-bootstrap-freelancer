@@ -6,6 +6,9 @@
 }
 
 /*COMMON*/
+.section{
+ padding: 30px 0 0 0;
+}
 
 h2{
     text-transform: uppercase;
@@ -57,8 +60,12 @@ nav li a {
 /*JUMBOTRON*/
 .jumbotron{
     text-align: center;
-    height: 500px;
     text-transform: uppercase;
+}
+
+.box_avatar{
+    margin: auto;
+    max-width: 200px;
 }
 /*FINE JUMBOTRON*/
 /*FINE HEADER*/
@@ -75,34 +82,18 @@ nav li a {
     text-align: center;
 }
 
-.about_text_left{
-    text-align: center;
-    width: 80%;
+.small_container{
+    width: 70%;
     margin: auto;
+    max-width: 800px;
 }
 
-.about_text_right{
-    text-align: center;
-    width: 80%;
-    margin: auto;
-    padding: 2% 0;
+.about_text,
+.about_text{
+    text-align: left;
+    margin-bottom: 20px;
 }
 
-@media all and ( min-width : 768 px ) {
-
-    .about_text_left{
-        text-align: left;
-        width: 80%;
-        margin: auto;
-    }
-    
-    .about_text_right{
-        text-align: left;
-        width: 80%;
-        margin: auto;
-        padding: 2% 0;
-    }
-}
 /*FINE ABOUT*/
 
 /*CONTACT*/
@@ -132,7 +123,7 @@ footer{
 }
 
 .padding_footer{
-    padding: 0 0 3% 0;
+    padding: 30px 0 40px 0;
 }
 
 footer .copyright{
